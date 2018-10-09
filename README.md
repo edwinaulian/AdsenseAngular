@@ -10,6 +10,7 @@
 > Easy AdSense for Angular Applications
 
 Demo: https://scttcper.github.io/ng2-adsense/
+Learn from : https://www.npmjs.com/package/ng2-adsense
 
 ## Install
 
