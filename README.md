@@ -78,3 +78,4 @@ Uses global defaults which can be overriden via inputs
   [height]="108">
 </ng-adsense>
 ```
+# AdsenseAngular
