@@ -15,7 +15,7 @@ import { ActivatedRoute } from '@angular/router';
   `,
 })
 export class PageComponent {
-  title = 'Page 1';
+  title = 'Page Adsense 1';
 }
 
 /**
@@ -38,7 +38,7 @@ export class PageComponent {
   `,
 })
 export class OtherPageComponent extends PageComponent {
-  title = 'Page 2';
+  title = 'Page Adsense 2';
 }
 
 /**
@@ -55,14 +55,14 @@ export class OtherPageComponent extends PageComponent {
   `,
 })
 export class ReloadPageComponent implements OnInit {
-  title = 'Page 3';
+  title = 'Page Adsense 3';
   loading = true;
 
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
     this.route.params.subscribe(params => {
-      this.title = `Page ${params['id']}`;
+      this.title = `Page Adsense ${params['id']}`;
       this.loading = true;
       setTimeout(() => (this.loading = false), 200);
     });
